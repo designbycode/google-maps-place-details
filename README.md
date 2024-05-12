@@ -8,9 +8,11 @@ The Reviews class is a part of the Designbycode namespace and is used to fetch r
 
 ## Package Documentation
 This package provides a simple and easy-to-use interface for fetching place details from the Google Maps Place Details API.
+
 > ### Please note the package only return 5 reviews at most.
 > ###### If you want to fetch more reviews, please use the [Google Maps Place Search API](https://developers.google.com/maps/documentation/places/web-service/search)
- 
+
+
 ## Installation
 
 To install the package, use composer:
