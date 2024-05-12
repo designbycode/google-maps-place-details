@@ -5,7 +5,7 @@ namespace Designbycode\GoogleMapsPlaceDetails;
 use Designbycode\GoogleMapsPlaceDetails\Enum\Field;
 use GuzzleHttp\Client;
 
-class GoogleMapsPlaceDetails
+class PlaceDetails
 {
     /**
      * API endpoint URL
