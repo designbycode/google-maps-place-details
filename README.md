@@ -48,7 +48,6 @@ The package supports the following fields:
 - rating
 - user_ratings_total
 
-
 ```phph
 $placeDetails = new PlaceDetails('YOUR_API_KEY', 'YOUR_PLACE_ID');
 ```
@@ -60,6 +59,16 @@ The `Results` class is responsible for handling the results of a Google Maps Pla
 - `reviews()`: Returns an array of reviews from the API response.
 - `rating()`: Returns the rating from the API response, or null if not present.
 - `userRatingsTotal()`: Returns the total number of user ratings from the API response, or null if not present.
+
+### Example 
+
+```php
+$placeDetails = new PlaceDetails('YOUR_API_KEY', 'YOUR_PLACE_ID');
+
+$placeDetails->getResults()->reviews();
+
+````
+
 
 ## Enum Class
 The Field enum class is used to define the fields that can be fetched from the Google Maps Place Details API. It supports the following fields:
