@@ -82,9 +82,6 @@ The Field enum class is used to define the fields that can be fetched from the G
 - user_ratings_total
 
 
-
-
-
 ## Testing
 
 ```bash
