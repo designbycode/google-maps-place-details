@@ -1,10 +1,12 @@
 {
     "name": "designbycode/google-maps-place-details",
-    "description": "This is a Google Reviews",
+    "description": "The Reviews class is a part of the Designbycode namespace and is used to fetch reviews, rating, and user ratings total of a place using the Google Places API. It requires a Google Maps API key and a Google Maps place ID to make requests.",
     "keywords": [
         "designbycode",
         "reviews",
-        "google reviews"
+        "google reviews",
+        "google maps",
+        "google maps reviews"
     ],
     "homepage": "https://github.com/designbycode/google-maps-place-details",
     "license": "MIT",
